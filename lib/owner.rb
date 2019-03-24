@@ -63,6 +63,11 @@ def sell_pets
   self.pets.each {|key, value| value.clear}
   # self.pets.values.clear
 
+def list_pets
+  self.pets.each {|key|}
+
+end
+
 end
 
 
