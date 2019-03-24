@@ -8,7 +8,7 @@ def self.all
 end
 
 def self.count
-  ß
+  self.all.length
 end
 
 
