@@ -45,7 +45,6 @@ end
 
 def walk_dogs
   self.pets[:dogs].each {|x| x.mood = "happy"}
-
 end
 
 end
