@@ -2,7 +2,7 @@ class Owner
 
 @@all = []
 
-attr_accessor :name
+attr_accessor :name, :pets
 
 attr_reader :species
 
@@ -26,7 +26,9 @@ def say_species
   @species
 end
 
+def pets
 
+end
 
 
 end
