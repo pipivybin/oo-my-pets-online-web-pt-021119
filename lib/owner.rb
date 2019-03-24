@@ -15,7 +15,7 @@ def self.count
 end
 
 def self.reset_all(owner)
-  self.all.delete
+  self.all.delete_if(owner)
 end
 
 def initialize(species)
