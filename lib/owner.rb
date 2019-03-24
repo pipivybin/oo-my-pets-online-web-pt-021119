@@ -61,8 +61,6 @@ def sell_pets
   self.pets.values.flatten.each {
     |x|  x.mood = "nervous"}
   self.pets.each {|key, value| value.clear}
-
-
 end
 
 
