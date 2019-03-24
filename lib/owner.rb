@@ -47,4 +47,13 @@ def walk_dogs
   self.pets[:dogs].each {|x| x.mood = "happy"}
 end
 
+def play_with_cats
+  self.pets[:cats].each {|x| x.mood = "happy"}
+end
+
+def feed_fish
+  self.pets[:fishes].each {|x| x.mood = "happy"}
+end
+
+
 end
