@@ -2,6 +2,8 @@ class Owner
 
 @@all = []
 
+attr_accessor :name
+
 attr_reader :species
 
 def self.all
@@ -23,6 +25,8 @@ end
 def say_species
   @species
 end
+
+
 
 
 end
