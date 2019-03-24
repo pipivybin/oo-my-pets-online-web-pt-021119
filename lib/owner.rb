@@ -58,7 +58,7 @@ def feed_fish
 end
 
 def sell_pets
-  self.pets.values.each binding.pry {
+  self.pets.values.flatten.each binding.pry {
     |x|  x.values.each  {|x| x.mood = "nervous"}
   }
 end
