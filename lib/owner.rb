@@ -14,7 +14,7 @@ def self.count
   self.all.length
 end
 
-def self.rest_all
+def self.reset_all
   self.all.delete
 end
 
