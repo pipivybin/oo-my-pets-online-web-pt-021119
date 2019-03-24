@@ -55,5 +55,12 @@ def feed_fish
   self.pets[:fishes].each {|x| x.mood = "happy"}
 end
 
+def sell_pets
+  self.pets.each {
+    |x| x.value.mood = "nervous"
+  }
+end
+
+
 
 end
