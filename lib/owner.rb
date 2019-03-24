@@ -25,7 +25,7 @@ def initialize(species)
 end
 
 def say_species
-  "I am a #{@species}"
+  "I am a #{@species}."
 end
 
 def buy_fish(name)
