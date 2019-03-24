@@ -60,9 +60,9 @@ end
 def sell_pets
   self.pets.values.flatten.each {
     |x|  x.mood = "nervous"}
-  self.pets.values.clear
-  self.pets
-  binding.pry
+  self.pets.each {|key, value| value.clear}
+
+
 end
 
 
