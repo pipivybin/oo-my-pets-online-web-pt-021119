@@ -27,6 +27,9 @@ def say_species
   @species
 end
 
+def buy_fish
+  fish = Fish.new
 
+end
 
 end
