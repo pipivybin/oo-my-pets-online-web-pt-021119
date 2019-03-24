@@ -64,7 +64,7 @@ def sell_pets
   # self.pets.values.clear
 
 def list_pets
-  "I have #{self.pets[:fishes].length} fish, #{self.pets[:dogs]} dog(s), and #{self.pets[:cats]} cat(s)."
+  "I have #{self.pets[:fishes].count} fish, #{self.pets[:dogs].count} dog(s), and #{self.pets[:cats].count} cat(s)."
 
 end
 
