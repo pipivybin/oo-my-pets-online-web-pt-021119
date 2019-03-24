@@ -1,7 +1,7 @@
 class Owner
 
-def method_name
-
+def all
+  @@all
 end
 
 
