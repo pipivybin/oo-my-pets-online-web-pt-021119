@@ -1,3 +1,14 @@
 class Owner
-  # code goes here
+
+def method_name
+
+end
+
+
+
+
+
+
+
+
 end
