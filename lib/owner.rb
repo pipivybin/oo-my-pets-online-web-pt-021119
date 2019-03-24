@@ -43,5 +43,9 @@ def buy_dog(name)
   @pets[:dogs] << dog
 end
 
+def walk_dogs
+  self.pets[:dogs].each {|x| x.mood = "happy"}
+
+end
 
 end
